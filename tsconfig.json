@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler", // Optimizat pentru Vite
+    "lib": ["ESNext", "DOM"], // "DOM" îi spune lui TS că lucrăm în browser
+    "types": ["chrome"], // Aceasta este linia critică pentru extensie
+    
+    "strict": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "skipLibCheck": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    
+    // Păstrăm restul setărilor tale de rigoare
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": ["src/**/*", "vite.config.ts"]
+}
