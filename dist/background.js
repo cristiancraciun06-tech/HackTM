@@ -1,0 +1,1 @@
+import{t as e}from"./assets/chunk-Bc6B1Ox1.js";var t=e((()=>{chrome.runtime.onMessage.addListener((e,t,n)=>{e.action===`VERIFY_NEWS`&&console.log(`Am primit titlul pentru verificare:`,e.title)})}));export default t();
