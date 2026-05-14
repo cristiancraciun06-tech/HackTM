@@ -1,1 +1,0 @@
-import{t as e}from"./assets/chunk-Bc6B1Ox1.js";var t=e((()=>{console.log(`Popup script încărcat`)}));export default t();export{t};

@@ -1,1 +1,0 @@
-import{t as e}from"./assets/chunk-Bc6B1Ox1.js";var t=e((()=>{console.log(`DeepCheck: Content script activat.`);function e(){let e=document.querySelector(`h1`)?.innerText;return document.querySelector(`meta[property="og:title"]`)?.getAttribute(`content`)||e||document.title}var t=e();t&&chrome.runtime.sendMessage({action:`VERIFY_NEWS`,title:t})}));export default t();
